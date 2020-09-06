@@ -1,9 +1,14 @@
-export const sum = (numberA, numberB) => numberA + numberB;
-export const sub = (numberA, numberB) => numberA - numberB;
-export const mult = (numberA, numberB) => numberA * numberB;
-export const div = (numberA, numberB) => {
-  if (numberB === 0) {
-    return 'Não é possivel divisão por zero!';
+const FizzBuzz = (num) => {
+  if (num % 5 === 0 && num % 3 === 0) {
+    return 'FizzBuzz';
   }
-  return numberA / numberB;
+  if (num % 3 === 0) {
+    return 'Fizz';
+  }
+  if (num % 5 === 0) {
+    return 'Buzz';
+  }
+  return num;
 };
+
+export default FizzBuzz;
