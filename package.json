@@ -1,0 +1,25 @@
+{
+  "name": "tdd-with-js",
+  "version": "1.0.0",
+  "description": "Lib for study TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arroiz/tdd-with-js.git"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "library",
+    "spotify"
+  ],
+  "author": "Marcos Taron <marcosvtd@gmail.com> (https://www.github.com/arroiz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arroiz/tdd-with-js/issues"
+  },
+  "homepage": "https://github.com/arroiz/tdd-with-js#readme"
+}
